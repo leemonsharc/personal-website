@@ -1,0 +1,115 @@
+@media screen and (max-width: 850px) {
+    .navbar {
+        margin-top: -25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar h1 {
+        font-size: 14pt;
+    }
+    .title h1 {
+        font-size: 20pt;
+    }
+    h2 {
+        font-size: 16pt;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .decorations p {
+        margin-top: 20px;
+        margin-bottom:0px;
+    }
+    .decorations h1 {
+        margin: 0px;
+        font-size: 18px;
+    }
+    .decorations h2 {
+        margin-top: 70px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 850px) {
+    .navbar {
+        margin-top: -25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar h1 {
+        font-size: 14pt;
+    }
+    .title h1 {
+        font-size: 24pt;
+    }
+    h2 {
+        font-size: 20pt;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .decorations p {
+        margin-top: 20px;
+        margin-bottom:0px;
+        font-size: 16px
+    }
+    .decorations h1 {
+        margin: 0px;
+        font-size: 18px;
+    }
+    .decorations h2 {
+        margin: 90px;
+        font-size: 14px;
+    }
+}
+
+body {
+    background-color: #08141e;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar {
+    text-align: center;
+    border-bottom: 5px solid #c19370;
+}
+.navbar a {
+    color: #7b86b3;
+    text-decoration: none;
+}
+.navbar a:visited{
+    color: #636c91;
+    text-decoration: none;
+}
+.decorations p {
+    text-align: right;
+}
+.decorations h1, .decorations h2, .decorations p {
+    color: rgba(128, 128, 128, 0.498);
+}
+.title {
+    color: #f6d6bd;
+    margin: 20px;
+    text-align: center;
+}
+.project p, .project h2 {
+    color: #f6d6bd;
+    margin: 15px;
+}
+.project .link a {
+    color: #997577;
+    text-decoration: none;
+}
+.project .link a:visited {
+    color: #816271;
+    text-decoration: none;
+}
+.project {
+    margin-top: 20px;
+    border: 3px solid #c19370;
+    border-radius: 10px;
+    text-align: center;
+}
+.project img {
+    border: 3px solid #c19370;
+    border-radius: 5px;
+    width: 300px;
+}
