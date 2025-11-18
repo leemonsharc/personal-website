@@ -1,5 +1,5 @@
 @media screen and (max-width: 850px) {
-    .welcome, .reccomend {
+    .welcome, .recommend {
         margin-top: 20px;
         border-top: 2px solid #c19370;
         border-bottom: 2px solid #c19370;
@@ -43,13 +43,12 @@
     }
 }
 @media screen and (min-width: 850px) {
-    .welcome, .reccomend {
+    .welcome, .recommend {
         margin-top: 20px;
         border-top: 2px solid #c19370;
         border-bottom: 2px solid #c19370;
     }
     .navbar {
-        border-bottom: 5px solid #c19370;
         border-bottom: 5px solid #c19370;
         margin-top: -25px;
         display: flex;
@@ -60,12 +59,12 @@
         font-size: 14pt;
         display: inline-block;
     }
-    .welcome h1, .reccomend h1 {
+    .welcome h1, .recommend h1 {
         font-size: 24pt;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .welcome h2, .reccomend h2 {
+    .welcome h2, .recommend h2 {
         font-size: 16pt;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -94,7 +93,7 @@ body {
     background-color: #08141e;
     font-family: 'Courier New', Courier, monospace;
 }
-.welcome, .reccomend{
+.welcome, .recommend{
     text-align: center;
     color: #f6d6bd;
 }
@@ -102,11 +101,11 @@ body {
     text-align: center;
     border-bottom: 5px solid #c19370;
 }
-.reccomend a {
+.recommend a {
     color: #997577;
     text-decoration: none;
 }
-.reccomend a:visited {
+.recommend a:visited {
     color: #816271;
     text-decoration: none;
 }
