@@ -5,7 +5,7 @@
         border-bottom: 2px solid #c19370;
     }
     .navbar {
-        margin-top: 5px;
+        margin-top: -5px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -50,7 +50,7 @@
     }
     .navbar {
         border-bottom: 5px solid #c19370;
-        margin-top: -15px;
+        margin-top: -5px;
         display: flex;
         justify-content: space-around;
         align-items: center;

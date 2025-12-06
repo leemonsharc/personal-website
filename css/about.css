@@ -5,7 +5,6 @@
         border-bottom: 2px solid #c19370;
     }
     .navbar {
-        margin-top: -25px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -44,9 +43,6 @@
         border-bottom: 2px solid #c19370;
     }
     .navbar {
-        border-bottom: 5px solid #c19370;
-        border-bottom: 5px solid #c19370;
-        margin-top: -25px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -91,6 +87,7 @@ body {
 .navbar {
     text-align: center;
     border-bottom: 5px solid #c19370;
+    margin-top: -5px;
 }
 .about a {
     color: #997577;

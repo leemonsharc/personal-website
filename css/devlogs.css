@@ -1,6 +1,5 @@
 @media screen and (max-width: 850px) {
     .navbar {
-        margin-top: -25px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -34,7 +33,6 @@
 }
 @media screen and (min-width: 850px) {
     .navbar {
-        margin-top: -25px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -75,6 +73,7 @@ body {
 .navbar {
     text-align: center;
     border-bottom: 5px solid #c19370;
+    margin-top: -5px;
 }
 .navbar a {
     color: #7b86b3;

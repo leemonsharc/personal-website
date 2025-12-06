@@ -5,7 +5,6 @@
         border-bottom: 2px solid #c19370;
     }
     .navbar {
-        margin-top: -25px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -30,6 +29,7 @@
     }
     .decorations h1 {
         margin: 0px;
+        margin-bottom: 20px;
         font-size: 18px;
     }
     .decorations h2 {
@@ -45,9 +45,6 @@
         border-bottom: 2px solid #c19370;
     }
     .navbar {
-        border-bottom: 5px solid #c19370;
-        border-bottom: 5px solid #c19370;
-        margin-top: -25px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -73,6 +70,7 @@
     .decorations h1 {
         margin: 0px;
         font-size: 18px;
+        margin-bottom: 20px;
     }
     .decorations h2 {
         margin-top: 90px;
@@ -95,6 +93,7 @@ body {
 .navbar {
     text-align: center;
     border-bottom: 5px solid #c19370;
+    margin-top: -25px;
 }
 .main a {
     color: #997577;
